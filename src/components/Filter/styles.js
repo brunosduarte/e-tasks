@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.button`
   background: none;
-  font-size: 16px;
+  font-size: 1rem;
   border: 0;
 
   color: ${({ theme }) => theme.COLORS.GRAY_100};
@@ -12,7 +12,7 @@ export const Container = styled.button`
     content: '';
     border-bottom: solid 3px ${({ theme }) => theme.COLORS.BLUE_300};  
     transition: all 250ms ease-in-out;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
     transform: scaleX(0);
   }
 
